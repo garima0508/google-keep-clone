@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400&display=swap");
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:'Josefin Sans','Arial Narrow',Arial, sans-serif ;
+    
+}
+.header{
+    width: 100%;
+    line-height: 60px;
+    background-color: #fff;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding-left: 50px;
+    color: #f4b400;
+    box-shadow: 5px 3px 15px -5px rgba(0,0,0,0.5);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.main_note{
+    width: 500px;
+    padding: 15px 10px 5px 10px;
+    margin: 20px auto;
+}
+
+
+form{
+    min-height: 50px;
+    color: #ecf0f1;
+    padding: 15px 10px 5px 10px;
+    box-shadow: 3px 5px 15px -5px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    position: relative;
+}
+
+input{
+    width: 100%;
+    line-height: 30px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+textarea{
+    width: 100%;
+    line-height: 20px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.root{
+    border-radius: 50%;
+    width: 50px;
+    height: 45px;
+    position: absolute;
+    bottom: -28px;
+    left: 435px;
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.5);
+    border-color: transparent;
+    outline: none;
+    color: #f4b400;
+}
+
+.root .plus_sign{
+    font-size: 40px;
+    font-weight: 900;
+    
+    cursor: pointer;
+    z-index: 222;
+    
+}
+
+.root:hover{
+    background-color:#f4b400 ;
+}
+.root:hover .plus_sign{
+    color: #fff;
+    background-color:transparent;
+}
+
+.note{
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 5px 5px #ccc;
+    padding: 10px;
+    width: 240px;
+    margin: 16px;
+    float: left;
+    position: relative;
+}
+.note h1{
+    font-size: 1.1em;
+    margin-bottom: 6px;
+}
+.note p{
+
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.note .btn{
+    position: relative;
+    float: right;
+    margin-right: 10px;
+
+    color: #f4b400;
+    border: none;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    cursor: pointer;
+    box-shadow: 10px 10px 25px -10px rgba(0,0,0,0.5);
+    border-radius: 50%;
+    outline: none;
+}
+
+.deleteIcon{
+    width: 0.7em;
+    height: 0.7em;
+}
+
+.note .btn:hover{
+    background-color: #f4b400;
+}
+
+.note .btn:hover .deleteIcon{
+    color: #fff;
+}
+
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    padding-top: 100px;
+}
+html{
+    position:relative; 
+    min-height: 100%;
+  }
